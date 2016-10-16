@@ -39,6 +39,7 @@ EXPOSE 9000
 ## Volumes
 ##
 VOLUME /var/log/php-fpm
+VOLUME /etc/php-custom.d
 
 
 ##
